@@ -9,7 +9,8 @@ Point cloud visualization using VTK library
 
 ## 2. vtk module init 관련 issue
 
-'''
+'''C++
+
 #include <vtkAutoInit.h>
 VTK_MODULE_INIT(vtkInteractionStyle); // 필요에 따라 포함
 //VTK_MODULE_INIT(vtkRenderingFreeType); // 필요에 따라 포함
